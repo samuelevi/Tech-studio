@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --gray: #b7b7b7;
+  --blue: #007bff;
+  --green: #25d366;
+  --deep-read: #dc3545;
+}
+
+body,
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+.page-cont {
+  background: blue;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  background-color: var(--white);
+}
+
+nav img {
+  width: 40px;
+  height: 40px;
+}
+
+nav p {
+  font-size: 15px;
+}
+
+.full-stack {
+  font-size: 32px;
+}
+
+.explore {
+  color: var(--gray);
+}
+
+.location {
+  font-size: 15px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.en-details {
+  font-size: 18px;
+}
+
+.prog-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.input-box {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.btn {
+  /* width: 100%; */
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+.btnn {
+  /* width: 90%; */
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.box {
+  background-color: lightblue;
+  border: 1px solid blue;
+  min-height: 50px;
+}
+
+.background {
+  background-image: url(./images/background\ img.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+#adjust-width{
+  width: 85%;
+  /* width: 1220px; */
+  padding: 50px 0;
+}
+
+.student-image {
+  background-color: #f9fafa;
+}
+
+.student-pic {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.white-bg-shadow {
+  box-shadow: 8px 8px 12px rgba(128, 128, 128, 0.473);
+}
+
+.studio-img{
+  width: 100%;
+  display: flex;
+}
+
+.bullet-list{
+  list-style-type: disc;
+}
+
+#whatsapp{
+  background: #13990a;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.445);
+  cursor: pointer;
+}
+
+.whatsapp{
+  width: 40px;
+  height: 40px;
+}
+
+#footer-icon{
+  font-size: 30px;
+  margin: 10px;
+}
+
+#footer-icon:hover{
+  color:var(--deep-read)
+}
